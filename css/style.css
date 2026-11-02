@@ -1,0 +1,310 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica Arial, sans-serif;
+    background-color: #f8f5f0;
+    color: #333;
+}
+
+header {
+    background-color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #a68a64;
+}
+
+
+.welcome {
+    text-align: center;
+    padding: 65px 20px 35px;
+}
+
+.welcome h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.welcome p {
+    margin-bottom: 25px;
+    color: #666;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #a68a64;
+}
+
+
+
+.home-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 30px 20px 60px;
+}
+
+.home-images img {
+    width: 45%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.simple-page {
+    text-align: center;
+    padding: 100px 20px;
+    min-height: 450px;
+}
+
+.simple-page h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.simple-page h3 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.simple-page p {
+    color: #666;
+    line-height: 1.8;
+}
+
+
+footer {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    font-size: 13px;
+    color: #777;
+}
+
+
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav a {
+        margin: 0 7px;
+    }
+
+    .home-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-images img {
+        width: 90%;
+        height: 300px;
+    }
+
+.collection-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px 25px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.bag {
+    text-align: center;
+}
+
+.bag img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.bag h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.bag p {
+    color: #777;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+ 
+    .collection-images {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .bag img {
+        height: 200px;
+    }
+.brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: #a68a64;
+    margin-top: 3px;
+}
+.about-content img {
+    width: 550px;
+    height: 300px;
+    object-fit: cover;}
+    .location-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.location-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.location-section p {
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.map-container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 350px;
+    border: 0;
+}
+
+.accordion-section {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.accordion-section h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.accordion-section > p {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.accordion-item {
+    background-color: white;
+    border: 1px solid #e5ddd2;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+.accordion-item summary {
+    padding: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    list-style: none;
+}
+
+.accordion-item summary::after {
+    content: "+";
+    float: right;
+    color: #a68a64;
+    font-size: 20px;
+}
+
+.accordion-item[open] summary::after {
+    content: "−";
+}
+
+.accordion-item summary:hover {
+    color: #a68a64;
+}
+
+.accordion-content {
+    padding: 20px;
+    border-top: 1px solid #eee;
+}
+
+.accordion-content p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.accordion-content iframe {
+    width: 100%;
+    border: none;
+}
+
+.accordion-content a {
+    color: #a68a64;
+    text-decoration: none;
+}
+
+.accordion-content h3 {
+    margin-bottom: 15px;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+    .accordion-section {
+        padding: 20px 12px;
+    }
+
+    .accordion-content iframe {
+        height: 250px;
+    }
+}
