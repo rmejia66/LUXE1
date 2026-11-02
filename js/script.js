@@ -1,7 +1,4 @@
 
-// LUXE WEBSITE JAVASCRIPT
-
-// Automatically update the copyright year
 
 cont year = document.getElementById("year");
 
